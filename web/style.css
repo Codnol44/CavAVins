@@ -1,0 +1,92 @@
+html {
+    background: darkslategrey;
+    font-family: "Comic Sans MS";
+    font-size: x-large;
+}
+
+body {
+    background-image:url(vin.png);
+}
+
+div.fond {
+    background-color: lavender;
+}
+
+.affic {
+    background: maroon;
+    border-radius: 10px;
+}
+
+button.btn {
+    font-family: "Comic Sans MS";
+    display: inline-block;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 150px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button.btn2 {
+    font-family: "Comic Sans MS";
+    display: inline-block;
+    background-color: deepskyblue;
+    border-radius: 20px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 15px;
+    padding: 30px;
+    width: 250px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+@keyframes appear {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+div#look {
+    text-align: center;
+    animation-name: appear;
+    animation-duration: 3s;
+    background-color: aquamarine;
+    font-size: small;
+}
+
+#foot {
+    background-color: maroon;
+    font-size: small;
+}
+
+header {
+    background-color: maroon;
+}
+
+.res {
+    text-align: center;
+    border-radius: 10px;
+    background-color: deepskyblue;
+    color: #eeeeee;
+    font-size: x-large;
+}
+
+
