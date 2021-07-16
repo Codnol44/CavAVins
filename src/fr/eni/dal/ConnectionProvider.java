@@ -12,7 +12,7 @@ public class ConnectionProvider {
 
     public static DataSource dataSource;
 
-    static { //Equivalent du constructeur dans une classe non-statique !
+    static { //Equivalent du constructeur  dans une classe non-statique !
         Context context;
 
         try {
